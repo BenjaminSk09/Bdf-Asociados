@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bdf&Asociados</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="font-style: italic;">
+                <img src="Imagenes/Img3.jpg" alt="Logo de la empresa" width="80" height="75" class="rounded-circle">
+                BDF & Asociados
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item" style="font-style: italic;"><a class="nav-link"
+                            href="Servicios.html">Servicios</a></li>
+                    <li class="nav-item" style="font-style: italic;"><a class="nav-link" href="Nosotros.html">Sobre
+                            Nosotros</a></li>
+                    <li class="nav-item" style="font-style: italic;"><a class="nav-link"
+                            href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Barra secundaria para números telefónicos -->
+    <div class="contact-bar bg-light py-2 ">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="text-primary text-center">
+                <!-- Números telefónicos -->
+                <i class="bi bi-telephone-fill me-2"></i>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Guatemala.svg"
+                    alt="Bandera de Guatemala" class="me-2" style="width: 24px; height: 16px;">
+                <span class="phone-number me-3"><a href="Contacto.html">+502 42039844</a></span>
+                <!-- Separador -->
+                <span class="mx-2">|</span>
+                <i class="bi bi-telephone-fill me-2"></i>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Guatemala.svg"
+                    alt="Bandera de Guatemala" class="me-2" style="width: 24px; height: 16px;">
+                <span class="phone-number me-3"><a href="Contacto.html">+502 32103185</a></span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Hero Section with Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Imagenes/Oficina1.jpg" class="d-block w-100" alt="Instalaciones">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Bienvenido a Nuestra Oficina Contable</h1>
+                    <p>Tu socio confiable en soluciones financieras y contables.</p>
+                    <a href="#servicios" class="btn btn-primary btn-lg">Descubre Nuestros Servicios</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/Profesionales.jpg" class="d-block w-100" alt="Servicio Profesional">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Confianza y Profesionalismo</h1>
+                    <p>Estamos comprometidos con tu éxito financiero.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/Equipo.jpg" class="d-block w-100" alt="Equipo de Trabajo">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Un Equipo Experto</h1>
+                    <p>Resolviendo tus necesidades contables con experiencia.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Cards Section -->
+    <section class="cards-section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Misión</h5>
+                            <p class="card-text text-center">Brindar cada diá mejores opciones y programas enfocados a ayudar a
+                                aquellas empresas e individuos nacionales
+                                a tener exito en sus negocios y finanzas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Valores</h5>
+                            <p class="card-text text-center">Optimiza procesos con soluciones personalizadas y efectivas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Visión</h3>
+                            <p class="card-text text-center">Ser la firma lider en Guatemala y Centro America genere
+                                valor a las empresas que confien en nosotros.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="software-section py-5">
+        <div class=" container">
+            <div class="mb-1 text-center">
+                <h2 class="section-title text-center">Nuestros Servicios</h2>
+                <p class="section-subtitle text-center">Conoce todos los servicios de contabilidad que ofrecemos para tu negocio</p>
+            </div>
+            <div class="row">
+                <!-- Inscripción de Empresas -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="module-card">
+                        <img src="Imagenes/inscripcion.jpeg" alt="Inscripción de Empresas" class="img-fluid fixed-size mb-2">
+                        <a href="Paginas Secundarias/Inscripcion_empresas.html" class="btn btn-primary w-100">Inscripción de Empresas</a>
+                    </div>
+                </div>
+                <!-- Inventario y Facturación -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="module-card">
+                        <img src="Imagenes/libros.jpg" alt="Inventario y Facturación" class="img-fluid fixed-size mb-2">
+                        <a href="Paginas Secundarias/libros_contables.html" class="btn btn-primary w-100">Autorizacion de Libros Contables</a>
+                    </div>
+                </div>
+                <!-- Cuentas por Cobrar -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="module-card">
+                        <img src="Imagenes/patentes.png" alt="Cuentas por Cobrar" class="img-fluid fixed-size mb-2">
+                        <a href="Paginas Secundarias/Tramite_patentes.html" class="btn btn-primary w-100">Tramite de Patentes</a>
+                    </div>
+                </div>
+                <!-- Cuentas por Pagar -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="module-card">
+                        <img src="Imagenes/Facturas.png" alt="Cuentas por Pagar" class="img-fluid fixed-size mb-2">
+                        <a href="Paginas Secundarias/Habilitacion_facturas.html" class="btn btn-primary w-100">Habilitacion De Facturas</a>
+                    </div>
+                </div>
+                <!-- Contabilidad -->
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="module-card">
+                        <img src="Imagenes/InsTributaria.png" alt="Contabilidad" class="img-fluid fixed-size mb-2">
+                        <a href="Paginas Secundarias/Inscripcion_administracion.html" class="btn btn-primary w-100">Inscripcion De Administracion Tributaria</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="module-card">
+                        <img src="Imagenes/ActuContable.png" alt="Contabilidad" class="img-fluid fixed-size mb-2">
+                        <a href="Paginas Secundarias/Actualizacion_contable.html" class="btn btn-primary w-100">Actualizacion Contable</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="module-card">
+                        <img src="Imagenes/tecnicopc.jpg" alt="Contabilidad" class="img-fluid fixed-size mb-2">
+                        <a href="Paginas Secundarias/Soporte_tecnico.html" class="btn btn-primary w-100">Soporte Técnico Informático</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="module-card">
+                        <img src="Imagenes/web.jpg" alt="Contabilidad" class="img-fluid fixed-size mb-2">
+                        <a href="Paginas Secundarias/Paginas_web.html" class="btn btn-primary w-100">Creacion De Paginas Web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2025 Consultores Empresariales. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="java.js"></script>
+</body>
+
+</html>
