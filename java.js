@@ -5,3 +5,11 @@ document.querySelectorAll('.btn').forEach(button => {
     });
   });
   
+
+// Movimiento de direccion hacia la zona de Servicios.
+
+
+document.getElementById("scrollbutton").addEventListener("click", function(){
+    document.getElementById("services").scrollIntoView({behaviorL: "smooth"});
+});
+
