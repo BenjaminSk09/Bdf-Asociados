@@ -109,7 +109,7 @@ body {
 }
 
 .section-subtitle {
-  color: #00ff00; /* Verde llamativo */
+  color: #FFFFFF; /* Verde llamativo */
   font-size: 1.2rem; /* Corrige el valor del tamaño de fuente */
   margin-bottom: 2rem;
   text-align: center; /* Asegura que el texto esté centrado */
@@ -251,3 +251,4 @@ body {
   padding: 20px;
   border-radius: 10px; /* Bordes redondeados */
 }
+
