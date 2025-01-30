@@ -125,3 +125,20 @@ a {
 .text-primary {
   color: #000080 !important;
 }
+
+/* margen extra para las cartas */
+.custom-card {
+  margin-bottom: 20px; /* Ajusta el valor según sea necesario */
+  padding: 15px;
+}
+
+.row.g-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-4 {
+  flex: 0 0 calc(33.333% - 20px); /* Ajusta el valor según sea necesario */
+  margin-bottom: 20px;
+}
