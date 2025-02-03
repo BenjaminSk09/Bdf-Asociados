@@ -7,10 +7,13 @@ document.querySelectorAll('.btn').forEach(button => {
   
 
 // Movimiento de direccion hacia la zona de Servicios.
-
-
 document.getElementById("scrollbutton").addEventListener("click", function(){
     document.getElementById("services").scrollIntoView({behaviorL: "smooth"});
+});
+
+// Movimiento de direccion hacia la zona de Servicios.
+document.getElementById("scrollbutton2").addEventListener("click", function(){
+  document.getElementById("services").scrollIntoView({behaviorL: "smooth"});
 });
 
 //pagina facturas//
