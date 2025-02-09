@@ -26,12 +26,14 @@ document.addEventListener("DOMContentLoaded", function () {
       benefits.forEach(function (benefit) {
           let position = benefit.getBoundingClientRect().top;
           if (position < windowHeight - 50) {
-              benefit.classList.add("visible");
+               benefit.classList.add("visible");
           }
       });
   }
-
+        
   // Llamar a la función cuando se haga scroll
   window.addEventListener("scroll", revealOnScroll);
   revealOnScroll(); // Para verificar al cargar la página
 });
+
+
